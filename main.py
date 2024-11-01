@@ -46,6 +46,7 @@ def game():
 		typing_result.grid(column = 0, columnspan = 3, row = 5, pady = 10)
 
 		entry_list = entry.get("1.0",'end-1c').split(' ')
+		print(entry.get("1.0",'end-1c'))
 		pos_x = 0
 		correct_words = 0
 		for n in range(0, len(entry_list)):
